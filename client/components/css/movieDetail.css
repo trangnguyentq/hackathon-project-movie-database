@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.logInBody{
+    background-color:#576F7C;
+}
+.movieTitle{
+  font-weight:700;
+  color:#D0DFD8;
+}
+.moviePoster{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moviePoster>img{
+  box-shadow: 3px 3px 5px 6px #505050;
+  width:200px;
+  height:300px;
+  
+}
+
+.movieDesc{
+  color:#D0DFD8;
+  padding:10%;
+  text-align: left;
+}
+.vote-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.vote-box>button{
+  margin:3%;
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  background-color: #D0DFD8;
+}
+.material-icons{
+  color:#505050;
+}

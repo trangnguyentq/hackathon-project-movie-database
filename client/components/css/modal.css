@@ -1,0 +1,27 @@
+.modal-header{
+    border-bottom: 1px solid #D0DFD8;
+}
+.modal-footer{
+    justify-content: center;
+    border-top:1px solid #D0DFD8;
+}
+.modal-content{
+    background-color:#D0DFD8;
+}
+
+.poster{
+    width:250px;
+    height:350px;
+    margin:auto;
+    margin-top:-25px;
+    border-radius: 32px;
+}
+.movieTitle{
+    text-align: center;
+    padding:5%;
+    font-size:26px;
+}
+.movieDesc{
+    text-align: center;
+    font-size:16px;
+}

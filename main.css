@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.logInBody{
+    background-color:#D0DFD8;
+}
+nav .navigation{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding:5%;
+}
+nav .navigation .logo{
+    width:10%;
+}
+nav .navigation .logo>img{
+    width:100%;
+}
+nav .navigation .title{
+    width:70%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+nav .navigation .title>h1{
+    font-size: 60px;
+    color:#505050;
+}
+nav .navigation .logOut{
+    width:10%;
+    margin-top:10px;
+}
+nav .navigation .logOut>img{
+    width:70%;
+}
+
+/*carousel*/
+.carousel{
+    padding:5%;
+}
+
+/* plus button */
+.add{
+    position:fixed;
+    background-color:#7FBBD7;
+    border-radius: 50%;
+    font-size:50px;
+    font-weight: 700;
+    color:#fff;
+    margin-left:90%;
+    box-shadow: 0 12px 8px -2px gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*footer*/
+.social{
+    padding:5%;
+}
+.social>a{
+    padding:1%;
+    color:#505050;
+}
+.copy{
+    padding:0 5%;
+    font-size:1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

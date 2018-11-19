@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  background-color:#576F7C;
+}
+
+.logInBody{
+    background-color:#576F7C;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10%;
+    margin-left:60px;
+}
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #D0DFD8;
+    border-radius:32px;
+    width:50%;
+    margin:auto;
+    padding:1%;
+    margin-bottom:5%;
+    font-size:1.5em;
+    font-family: 'Open Sans', sans-serif;
+    background-color:inherit;
+    color:#D0DFD8;
+    cursor: pointer;
+}
+.signUpLink:hover{
+  text-decoration: none;
+  background-color:#D0DFD8;
+}
+.signUpLink .signUp:hover{
+  color:#505050;
+}
+.logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #D0DFD8;
+    border-radius: 32px;
+    width:50%;
+    margin:auto;
+    padding:1%;
+    font-size:1.5em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:10%;
+    color:#505050;
+    cursor: pointer;
+    background-color:#D0DFD8;
+}
+.logInLink:hover{
+  text-decoration: none;
+}
+.logInLink .logIn:hover{
+  background-color:#576F7C;
+  color:#D0DFD8;
+}

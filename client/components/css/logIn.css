@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.logInBody{
+    background-color:#576F7C;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10%;
+    padding-bottom:5%;
+    margin-left:60px;
+}
+.titleText{
+    text-align: center;
+    padding-bottom:5%;
+    color:#D0DFD8;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email .fa-envelope{
+  margin:2%;
+}
+.email > input{
+    background-color:inherit;
+    border:0px solid #D0DFD8;
+    border-bottom:2px solid #D0DFD8;
+    width:50%;
+    font-size:1.5em;
+    color:#D0DFD8;
+}
+.email > input::placeholder{
+    color:#D0DFD8;
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5%;
+}
+.password .fa-lock{
+    margin:2%;
+}
+.password > input{
+    background-color:inherit;
+    border:0px solid #D0DFD8;
+    border-bottom:2px solid #D0DFD8;
+    width:50%;
+    font-size:1.5em;
+    color:#D0DFD8;
+}
+.password > input::placeholder{
+    color: #D0DFD8;
+}
+.submit{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border:2px solid #D0DFD8;
+      border-radius:32px;
+      width:30%;
+      margin:auto;
+      padding:1%;
+      margin-bottom:5%;
+      font-size:1.5em;
+      font-family: 'Open Sans', sans-serif;
+      background-color:#D0DFD8;
+      color:#505050;
+      cursor: pointer;
+    }
